@@ -1,0 +1,13 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\xju20\AppData\Local\Programs\Python\Python312\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\xju20\Downloads\technical assessment Active Prime
+collecting ... collected 5 items
+
+tests/test_data_issues.py::test_navigate_to_data_issues_grid PASSED      [ 20%]
+tests/test_data_issues.py::test_all_original_rows_have_nonempty_sfid PASSED [ 40%]
+tests/test_data_issues.py::test_select_original_value_for_seventh_card PASSED [ 60%]
+tests/test_data_issues.py::test_edit_final_row_issue_field PASSED        [ 80%]
+tests/test_data_issues.py::test_checkbox_selection_counter PASSED        [100%]
+
+============================= 5 passed in 29.06s ==============================
