@@ -3,6 +3,7 @@ from playwright.sync_api import expect
 
 def test_navigate_to_data_issues_grid(issues_page):
     """Test 1: Navigate to the Data Issues page and verify 10 issue cards are displayed."""
+    # Navigation is handled by the issues_page fixture.
     expect(issues_page.locator(".issue-card")).to_have_count(10)
 
 
